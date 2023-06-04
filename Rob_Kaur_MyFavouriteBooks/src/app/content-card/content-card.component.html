@@ -1,5 +1,11 @@
-<h1 style="background-color: rgb(81, 211, 218);">My Favourite Books</h1>
-<div *ngFor="let content of contentList.contentArray">
-    <div [innerHTML]="contentList.getContentHTML(content.id - 1)"></div>
+<div class="content" *ngIf ="content.type ==='Punjabi' || content.type === 'Romantic' || content.type ===''"  [ngStyle]="{'margin': '30px '  }">
+
+  <div class="border">
+  
+      <h1>{{ content.title }}</h1>
+      <p>{{ content.description }}</p>
+      <img *ngIf="content.imgURL" [src]="content.imgURL" (click)="showContent(content)">
+      <p>{{ content.creator }}</p>
+      <p *ngIf="content.type">{{ content.type }}</p>
+      <p *ngIf="content.tags">{{ content.tags }}</p>
   </div>
-  <hr>
