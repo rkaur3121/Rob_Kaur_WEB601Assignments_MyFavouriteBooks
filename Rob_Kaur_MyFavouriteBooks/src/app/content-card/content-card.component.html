@@ -1,11 +1,18 @@
-<div class="content" *ngIf ="content.type ==='Punjabi' || content.type === 'Romantic' || content.type ===''"  [ngStyle]="{'margin': '30px '  }">
-
-  <div class="border">
-  
-      <h1>{{ content.title }}</h1>
+<!-- <div class="card" (click)="handleImageClick()">
+    <h2>{{ content.title }}</h2>
+    <div class="image-container" *ngIf="content.imgURL">
+      <img [src]="content.imgURL" alt="{{ content.title }}" />
+    </div>
+    <div class="description" *ngIf="content.description">
       <p>{{ content.description }}</p>
-      <img *ngIf="content.imgURL" [src]="content.imgURL" (click)="showContent(content)">
-      <p>{{ content.creator }}</p>
-      <p *ngIf="content.type">{{ content.type }}</p>
-      <p *ngIf="content.tags">{{ content.tags }}</p>
-  </div>
+    </div>
+    <div class="creator" *ngIf="content.creator">
+      <p>Creator: {{ content.creator }}</p>
+    </div>
+    <div class="type" *ngIf="content.type">
+      <p>Type: {{ content.type }}</p>
+    </div>
+    <div class="tags" *ngIf="content.tags && content.tags.length > 0">
+      <p *ngFor="let tag of content.tags">Tag: {{ tag }}</p>
+    </div>
+  </div> -->
