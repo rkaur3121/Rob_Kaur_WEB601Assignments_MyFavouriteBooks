@@ -1,6 +1,6 @@
 {
   "name": "rob-kaur-my-favourite-books",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
