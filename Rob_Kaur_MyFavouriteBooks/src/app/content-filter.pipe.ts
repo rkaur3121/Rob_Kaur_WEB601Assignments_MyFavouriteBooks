@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Content } from './helper_files/content-interface';  
+import { Content } from '../app/helper_files/content-interface'; // Replace with the actual path to your Content model
 
 @Pipe({
   name: 'contentFilter'

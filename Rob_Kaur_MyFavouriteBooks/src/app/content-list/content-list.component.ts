@@ -81,7 +81,7 @@ export class ContentListComponent {
   ]; 
 
   types: string[] = ['Fiction', 'Action']; 
-  searchTitle: string = 'Naruto';
+  searchTitle: string = '';
   searchResultMessage: string = '';
   searchResultExists: boolean = false;
 
