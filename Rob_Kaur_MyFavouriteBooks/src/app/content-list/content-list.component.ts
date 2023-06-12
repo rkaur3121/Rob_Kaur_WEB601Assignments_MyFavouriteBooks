@@ -73,7 +73,7 @@ export class ContentListComponent {
       title: 'The Catcher in the Rye',
       description: 'A coming-of-age novel',
       creator: 'J.D. Salinger',
-      imgURL: 'assets/image/catcher1.jpg',
+      imgURL: '',
       type: 'Action',
       tags: [' Animation, 2012'],
       highlight: false
