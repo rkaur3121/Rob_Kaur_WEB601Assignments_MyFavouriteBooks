@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Yas_Kheni_MyFavouriteAnimeSeries'`, () => {
+  it(`should have as title 'Rob_kaur_MyFavouriteBooks'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Yas_Kheni_MyFavouriteAnimeSeries');
+    expect(app.title).toEqual('Rob_kaur_MyFavouriteBooks');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Yas_Kheni_MyFavouriteAnimeSeries app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Rob_kaur_MyFavouriteBooks app is running!');
   });
 });
