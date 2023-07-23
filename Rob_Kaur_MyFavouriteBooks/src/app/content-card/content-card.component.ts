@@ -8,6 +8,6 @@ export class ContentCardComponent {
   contentList: any = [];
 
   constructor() {
-    this.contentList.add();
+    
   }
 }
