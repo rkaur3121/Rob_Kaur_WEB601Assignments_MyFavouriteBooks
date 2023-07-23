@@ -1,15 +1,15 @@
 {
   "name": "rob-kaur-my-favourite-books",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generatecomponent":"ng generate component",
-    "generatepipe":"ng generate pipe",
-    "generatedirective":"ng generate directive"
+    "generatecomponent": "ng generate component",
+    "generatepipe": "ng generate pipe",
+    "generatedirective": "ng generate directive"
   },
   "private": true,
   "dependencies": {
@@ -21,13 +21,14 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "angular-in-memory-web-api": "^0.16.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.0.3",
-    "@angular/cli": "~16.0.3",
+    "@angular/cli": "^16.1.5",
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
